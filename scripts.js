@@ -48,4 +48,9 @@ function final () {
 
 }
 
+function fecharPedido(){
+    const fundo = document.querySelector(".fundo");
+    fundo.classList.add("apagado");
+}
+
 
