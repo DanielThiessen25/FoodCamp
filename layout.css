@@ -11,7 +11,12 @@
   flex-direction: column;
 }
 
-
+.pelicula {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 4;
+}
 
 .topo {
     width: 100%;
@@ -185,4 +190,8 @@
 
   .pronto {
     background: #32b72f;
+  }
+
+  .apagado {
+    opacity: 0.5;
   }

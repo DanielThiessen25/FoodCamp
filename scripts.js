@@ -49,8 +49,8 @@ function final () {
 }
 
 function fecharPedido(){
-    const fundo = document.querySelector(".fundo");
-    fundo.classList.add("apagado");
+    var aux = document.querySelector(".pelicula");
+    aux.classList.add("apagado");
 }
 
 
