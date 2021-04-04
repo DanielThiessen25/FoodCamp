@@ -11,6 +11,7 @@
   flex-direction: column;
 }
 
+
 .topo {
     width: 100%;
     height: 92px;
@@ -41,4 +42,79 @@
     font-size: 18px;
     line-height: 21px;
     color: #ffffff;
+  }
+
+  .preenchimento {
+    background: #e5e5e5;
+    width: 100%;
+    height: 92px;
+  }
+  
+
+  .faixa {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  
+  .titulo {
+    width: 100%;
+    padding-left: 21px;
+    margin-top: 31px;
+    margin-bottom: 10px;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.018em;
+    color: #333333;
+  }
+  
+  .item {
+    width: 172px;
+    height: 216px;
+    margin-left: 19px;
+    background: #ffffff;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 14px;
+  }
+  
+  .item h2 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+  }
+  
+  .item h3 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #a6a6a6;
+  }
+  
+  .item h4 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  
+  .foto {
+    width: 144px;
+    height: 87px;
+    border-radius: 4px;
   }
