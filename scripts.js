@@ -51,6 +51,8 @@ function final () {
 function fecharPedido(){
     var aux = document.querySelector(".pelicula");
     aux.classList.add("apagado");
+    aux = document.querySelector(".confirmar");
+    aux.classList.add("exibir");
 }
 
 

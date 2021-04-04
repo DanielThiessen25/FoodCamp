@@ -195,3 +195,20 @@
   .apagado {
     opacity: 0.5;
   }
+
+  .confirmar {
+    width: 90%;
+    height: 50%;
+    
+    position: fixed;
+    top: 25%;
+    left:5%;
+    z-index: -1;
+  }
+
+  .exibir {
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    z-index: 5;
+  }
