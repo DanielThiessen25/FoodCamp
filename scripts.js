@@ -2,6 +2,9 @@
 let cont2 = 0;
 let cont3 = 0;
 
+let habilitado = false;
+
+
 let comida = 0;
 let bebida = 0;
 let sobremesa = 0;
@@ -52,16 +55,20 @@ function final () {
         const piso = document.querySelector(".pedir");
         piso.classList.add("pronto");
         piso.innerHTML = "Fechar Pedido";
+        habilitado = true;
     }   
 
 }
 
 function fecharPedido(){
-    var aux = document.querySelector(".pelicula");
-    aux.classList.add("apagado");
-    aux = document.querySelector(".confirmar");
-    aux.classList.add("exibir");
-    confirmar();
+    if(habilitado == true){
+        var aux = document.querySelector(".pelicula");
+        aux.classList.add("apagado");
+        aux = document.querySelector(".confirmar");
+        aux.classList.add("exibir");
+        confirmar();
+    }
+    
 }
 
 function voltarPedido(){
