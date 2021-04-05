@@ -64,6 +64,13 @@ function fecharPedido(){
     confirmar();
 }
 
+function voltarPedido(){
+    var aux = document.querySelector(".pelicula");
+    aux.classList.remove("apagado");
+    aux = document.querySelector(".confirmar");
+    aux.classList.remove("exibir");
+}
+
 function confirmar() {
     
     var aux = document.querySelector(".precox"+comida);
