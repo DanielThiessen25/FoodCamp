@@ -121,6 +121,6 @@ function abrirLink() {
     let pedido = "Olá, gostaria de fazer o pedido:\n -Prato: " + nome + "\n -Bebida: " + nome2 + "\n -Sobremesa: " + nome3 + "\n Total: R$" + custoTotal + "\n \n Nome: " + nomeCliente
         + "\n Endereço: " + enderecoCliente + "\n";
     let url = encodeURIComponent(pedido);
-    let link = "https://wa.me/5561982621155?text=" + url;
+    let link = "https://wa.me/?text=" + url;
     window.open(link);
 }
